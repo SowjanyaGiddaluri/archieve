@@ -1,0 +1,512 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+body {
+    font-family: "Josefin Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.navbar {
+    border-bottom: 1px solid #333999;
+    padding: 0px;
+}
+
+.rexx-heading {
+    color: #333999;
+    font-size: 40px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+#customItem, #customItem1, #customItem2, #customItem3, #customItem4, #customItem5 {
+    color: #000;
+    font-size: 16px;
+}
+
+.rexx-btn {
+    background-color: #333999;
+    border-width: 0px;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.rexx-btn:hover {
+    color: #fff;
+
+}
+
+.rexx-hero-section {
+    width: 100%;
+    background-image: linear-gradient(to right, #fff 50%, #333999 50%);
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.hero-content-container {
+    padding: 5px;
+}
+
+.hero-content-container-heading {
+    font-size: 45px;
+    font-weight: bold;
+    color: #383535;
+    margin-bottom: 20px;
+    width: 600px;
+}
+
+
+.hero-content-container-heading span {
+    color: #333999;
+    font-size: 55px; 
+}
+
+.hero-content-container-para {
+    font-size: 20px;
+    color: #383535; 
+    margin-bottom: 30px;
+}
+.rexx-hero-secion-img{
+    height: 100%;
+    width: 100%;
+}
+.download-image{
+    width: 160px;
+    height: 45px;
+    margin-left: 3px;
+}
+
+
+/* discover path */
+.discover-card{
+    border: 1px solid #333999;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding: 7px;
+}
+.discover-card-heading{
+    font-size: 25px;
+    color: #333999;
+    font-weight: 600;
+}
+.discover-card-para{
+    font-size: 16px;
+    color: #000;
+    
+}
+.Discover-path-container{
+    width: 100%;
+    background-color: #f8f9fa; 
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    padding: 50px 0;
+}
+.discover-path-heading{
+    font-size: 30px;
+    font-weight: 600;
+}
+/* discover path */
+
+
+/* How it works*/
+.How-work-container{
+    width: 100%;
+    background-color: #f8f9fa; 
+    min-height: 70vh;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+}
+
+.how-work-main-head{
+    color: #333999;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.swiper-container {
+    width: 320px;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    
+}
+.swiper-container::before {
+    content: "";
+    background: url("https://theme.bitspecksolutions.com/html-template/appt/demo/images/testi-iphone.png") no-repeat center;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    pointer-events: none;
+
+}
+.swiper-slide img {
+    width: 300px;
+    height: 550px;
+    display: block;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0 auto  
+}
+.how-work-cards{
+    border: 1px solid #ededed;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10px;
+}
+.work-heading{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 1px;
+}
+.work-para{
+    font-size: 16px;
+    margin-bottom: 1px;
+}
+/* how it works */
+
+
+/* features container */
+
+.features-main-container .carousel-control-prev-icon,
+    .features-main-container .carousel-control-next-icon {
+        background-color: rgba(51, 57, 153, 0.8); 
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        
+    }
+
+    
+    .features-main-container .carousel-indicators li {
+        background-color: #000; 
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+    }
+    
+    .features-main-container .carousel-indicators .active {
+        background-color: #333999; 
+    }
+.features-container{
+    padding: 80px;
+    margin-top: 40px;
+}
+.features-heading{
+    font-size: 25px;
+    color: #333999;
+    font-weight: bold;
+}
+.features-para{
+    font-size: 20px;
+    color: #000;
+}
+
+.features-card-container{
+    border: 1px solid #ededed;
+    padding: 10px;
+    border-radius: 5px;  
+    height: 170px;
+    text-align: center;
+}
+.features-card-heading{
+    font-size: 20px;
+    color: #333999;
+    margin-bottom: 0px;
+}
+.features-card-para{
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 0px;
+}
+/* features container */
+.features-main-container{
+    min-height: 70vh;
+    background: linear-gradient(rgba(201, 201, 215, 0.8), rgba(114, 115, 185, .8)), url("../Images/young-person-intership.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: 0;
+    overflow: hidden;
+    position: relative;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+ul.tabs {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 30px;
+    border-bottom: 1px solid #333999;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul.tabs li {
+    cursor: pointer;
+    padding-top: 6px;
+    height: 45px;
+    line-height: 31px;
+    border-top: 1px solid #333999;
+    border-left: 1px solid #333999;
+    border-bottom: 1px solid #333999;
+    background-color: #fff;
+    color: #333999;
+    overflow: hidden;
+    position: relative;
+    flex-grow: 1; /* Distribute the tabs equally */
+    text-align: center;
+    box-sizing: border-box;
+}
+
+ul.tabs li:not(:first-child) {
+    border-left: none; /* Remove the left border for all tabs except the first one */
+}
+
+.tab_last {
+    border-right: 1px solid #333999;
+}
+
+
+
+ul.tabs li.active {
+    background-color: #333999;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    display: block;
+}
+
+.tab_container {
+    border: 1px solid #333999;
+    border-top: none;
+    clear: both;
+    width: 100%;
+    background: #fff;
+    overflow: auto;
+}
+
+.tab_content {
+    padding: 20px;
+    display: none;
+}
+
+.tab_drawer_heading {
+    display: none;
+}
+.item-grid:last-child{
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 480px) {
+    ul.tabs {
+        display: none;
+    }
+
+    .tab_drawer_heading {
+        background-color: #333999;
+        color: #fff;
+        border-top: 1px solid #fff;
+        margin: 0;
+        padding: 10px;
+        display: block;
+        cursor: pointer;
+        font-size: 16px;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    .d_active {
+        background-color: #fff;
+        color: #333999;
+    }
+    .item-grid:last-child{
+        margin-top: 0px;
+    }
+}
+
+.tab-how-card-container{
+    border: 1px solid #333999;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 5px;
+}
+.tab-image{
+    width: 100%;
+}
+
+  
+  
+/* testimonial*/
+.testimonials-container{
+    width: 100%;
+    background-color: #f8f9fa; 
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    padding: 50px 0px;
+}
+.testi-profile{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.testi-sub-card{
+    border: 1px solid #333999;
+    padding: 10px;
+    border-radius: 5px;
+}
+.testimonials-container .carousel-control-prev-icon{
+    background-color: #333999;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-right: 120px;
+    
+}
+.testimonials-container .carousel-control-next-icon {
+    background-color: #333999;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-left: 120px;
+}
+.testi-main-head{
+    color: #333999;
+    font-size: 40px;
+    font-weight: 600;
+}
+.testi-main-para{
+    color: #383535;
+    font-size: 20px;
+}
+.testi-sub-card-head{
+    color: #333999;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+.testi-sub-card-para{
+    color: #383535;
+    font-size: 20px;
+}
+/* testimonial */
+
+
+
+
+
+
+
+
+
+
+/* Small devices (landscape phones, 576px and down) */
+@media (max-width: 576px) {
+    .rexx-hero-section{
+        background-image: linear-gradient(to bottom, #fff 50%, #333999 50%);
+    }
+    .rexx-heading {
+        font-size: 20px;
+    }
+    .hero-content-container{
+        padding-bottom: 100px;
+    }
+    .rexx-btn {
+        font-size: 14px;
+    }
+
+    .hero-content-container-heading {
+        font-size: 30px;
+        width: 100%;
+        margin-bottom: 1px;
+        
+    }
+    .download-image{
+        width: 100px;
+        height: 30px;
+        margin-left: 3px;
+    }
+
+    .hero-content-container-heading span {
+        font-size: 30px;
+    }
+
+    .hero-content-container-para {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    .discover-card-heading, .work-heading, .features-heading, .features-card-heading, .testi-main-head {
+        font-size: 20px;
+    }
+
+    .discover-card-para, .work-para, .features-para, .features-card-para, .testi-sub-card-para, .testi-main-para {
+        font-size: 14px;
+    }
+
+    .features-container, .How-work-container, .Discover-path-container, .testimonials-container {
+        padding: 30px 0;
+    }
+
+    .features-card-container {
+        height: auto;
+    }
+
+    .swiper-container {
+        width: 250px;
+        z-index:999;
+        height: 100%;
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+
+    .swiper-slide img {
+        width: 250px;
+        height: 400px;
+    }
+    .how-work-main-head{
+        color: #333999;
+        font-size: 30px;
+        font-weight: 600;
+        margin-top: 40px;
+        margin-left: 10px;
+    }
+    .testimonials-container{
+        
+        padding: 0px;
+    }
+    .testimonials-container .carousel-control-prev-icon{
+        background-color: #333999;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        margin-right: 15px;
+        
+    }
+    .testimonials-container .carousel-control-next-icon {
+        background-color: #333999;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        margin-left: 15px;
+    }
+}
+
